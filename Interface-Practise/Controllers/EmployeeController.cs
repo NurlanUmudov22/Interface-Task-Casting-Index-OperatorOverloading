@@ -57,20 +57,20 @@ namespace Interface_Practise.Controllers
 
 
 
-        //public void GetByNameOrSurname()
+        //public void Search()
         //{
         //    string? text = " Reshad";
 
-        //    var response = _employeeService.GetByNameOrSurname(_employeeService.GetAll(), text);
+        //    var response = _employeeService.Search(_employeeService.GetAll(), text);
 
-        //    if (response.ErrorMessage is null)
+        //    if ( response.Employee.Name == text || response.Employee.Surname == text)
         //    {
         //        Console.WriteLine($"{response.Employee.Name} {response.Employee.Surname} {response.Employee.Address}" +
         //        $" {response.Employee.Age} {response.Employee.Email} {response.Employee.Birthday.ToString("MM-dd-yyyy")}");
         //    }
         //    else
         //    {
-        //        Console.WriteLine(response.ErrorMessage);
+        //        Console.WriteLine(response);
         //    }
         //}
 

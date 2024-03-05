@@ -117,7 +117,7 @@ namespace Interface_Practise.Services
 
         public EmployeeResponse GetById(Employee[] employees, int? id)
         {
-            if ( id == null )
+            if (id == null)
             {
                 return new EmployeeResponse { ErrorMessage = EmployeeResponseMessages.ArgumentNull };
             }
@@ -125,59 +125,29 @@ namespace Interface_Practise.Services
             Employee employee = employees.FirstOrDefault(m => m.Id == id);
 
 
-            if ( employee == null )
+            if (employee == null)
             {
-                return new EmployeeResponse { ErrorMessage =EmployeeResponseMessages.Notfound };
+                return new EmployeeResponse { ErrorMessage = EmployeeResponseMessages.Notfound };
             }
 
-
-
-
-
-
-            return  new EmployeeResponse { Employee = employee };
+            return new EmployeeResponse { Employee = employee };
         }
 
 
 
 
 
-
-
-
-
-        //public Employee GetByNameOrSurname(Employee[] employees, string? text)
+         // --- exception
+        //public EmployeeResponse Search(Employee[] employees, string? text)
         //{
-        //    foreach (Employee employee in employees)
+        //    if (text == null)
         //    {
-        //        if ( employee.Name == text || employee.Surname == text)
-        //        {
-        //            var result =$" { employee.Surname }   { employee.Name}" ;
-                  
-        //            return result; 
-        //        }       
-            
-            
-            
-            
-            
-            
+        //        return new EmployeeResponse { ErrorMessage = EmployeeResponseMessages.DataNotfound };
         //    }
-        //    //if (text == null)
-        //    //{
-        //    //    return new EmployeeResponse { ErrorMessage = "Employee is not" };
-        //    //}
-        //    //return new EmployeeResponse { Employee = (Employee)employees.Where(m => m.Name == text || m.Surname == text) };
+         
+
+        //    return new EmployeeResponse { ErrorMessageForSearch = text };
         //}
 
-        
-
-
-
-
-
     }
-
-        
-    
 }
