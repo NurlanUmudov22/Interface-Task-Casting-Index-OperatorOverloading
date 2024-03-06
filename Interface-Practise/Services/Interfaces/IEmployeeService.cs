@@ -16,6 +16,6 @@ namespace Interface_Practise.Services.Interfaces
         EmployeeResponse GetById(Employee[] employees, int? id);
 
 
-        //EmployeeResponse Search(Employee[] employees, string? text);
+        Employee[] Search(Employee[] employees, string searchText);
     }
 }

@@ -1,4 +1,5 @@
-﻿using Interface_Practise.Models;
+﻿using Interface_Practise.Helpers.Constants;
+using Interface_Practise.Models;
 using Interface_Practise.Services;
 using Interface_Practise.Services.Interfaces;
 using System;
@@ -54,25 +55,33 @@ namespace Interface_Practise.Controllers
         }
 
 
+        public void Search()
+        {
+            Console.WriteLine("Add search text:");
+            string searchText= Console.ReadLine();
+
+            var response = _employeeService.Search(_employeeService.GetAll(), searchText);
 
 
+            if(response.Length == 0)
+            {
+                Console.WriteLine(EmployeeResponseMessages.Notfound); 
+                return;
+            }
+            else 
+            {
 
-        //public void Search()
-        //{
-        //    string? text = " Reshad";
+                foreach (var employee in response)
+                {
+                    string result = $"{employee.Name} {employee.Surname} {employee.Address}" +
+                        $" {employee.Age} {employee.Email} {employee.Birthday.ToString("MM-dd-yyyy")}";
+                    Console.WriteLine(result);
+                }
 
-        //    var response = _employeeService.Search(_employeeService.GetAll(), text);
 
-        //    if ( response.Employee.Name == text || response.Employee.Surname == text)
-        //    {
-        //        Console.WriteLine($"{response.Employee.Name} {response.Employee.Surname} {response.Employee.Address}" +
-        //        $" {response.Employee.Age} {response.Employee.Email} {response.Employee.Birthday.ToString("MM-dd-yyyy")}");
-        //    }
-        //    else
-        //    {
-        //        Console.WriteLine(response);
-        //    }
-        //}
+            }
+
+        }
 
 
 

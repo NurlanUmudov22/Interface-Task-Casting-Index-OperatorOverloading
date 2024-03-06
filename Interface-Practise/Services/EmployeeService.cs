@@ -136,18 +136,11 @@ namespace Interface_Practise.Services
 
 
 
-
-         // --- exception
-        //public EmployeeResponse Search(Employee[] employees, string? text)
-        //{
-        //    if (text == null)
-        //    {
-        //        return new EmployeeResponse { ErrorMessage = EmployeeResponseMessages.DataNotfound };
-        //    }
-         
-
-        //    return new EmployeeResponse { ErrorMessageForSearch = text };
-        //}
+        public Employee[] Search(Employee[] employees, string searchText)
+        {
+            return employees.Where(m=> m.Name.ToLower().Trim().Contains(searchText.ToLower().Trim()) 
+                      || m.Surname.ToLower().Trim().Contains(searchText.ToLower().Trim())).ToArray();
+        }
 
     }
 }

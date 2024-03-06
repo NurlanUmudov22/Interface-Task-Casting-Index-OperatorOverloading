@@ -13,6 +13,5 @@ namespace Interface_Practise.Helpers.Responses
 
         public string ErrorMessage { get; set; } 
 
-        //public string ErrorMessageForSearch { get; set; }
     }
 }

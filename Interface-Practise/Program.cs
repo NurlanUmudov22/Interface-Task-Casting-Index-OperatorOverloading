@@ -10,14 +10,6 @@ EmployeeController employeeController = new EmployeeController();
 //employeeController.GetById();
 
 
-
-
-
-
-
-
-
-
-//employeeController.Search();
+employeeController.Search();
 
 

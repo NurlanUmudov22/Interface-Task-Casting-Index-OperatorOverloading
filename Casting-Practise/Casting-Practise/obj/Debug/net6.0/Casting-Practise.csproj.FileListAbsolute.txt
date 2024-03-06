@@ -1,0 +1,15 @@
+C:\Users\ASUS\OneDrive\Рабочий стол\c#\c# intro, Datatypes and more\C#-Hometask-Intro\Interface-Task\Casting-Practise\Casting-Practise\bin\Debug\net6.0\Casting-Practise.exe
+C:\Users\ASUS\OneDrive\Рабочий стол\c#\c# intro, Datatypes and more\C#-Hometask-Intro\Interface-Task\Casting-Practise\Casting-Practise\bin\Debug\net6.0\Casting-Practise.deps.json
+C:\Users\ASUS\OneDrive\Рабочий стол\c#\c# intro, Datatypes and more\C#-Hometask-Intro\Interface-Task\Casting-Practise\Casting-Practise\bin\Debug\net6.0\Casting-Practise.runtimeconfig.json
+C:\Users\ASUS\OneDrive\Рабочий стол\c#\c# intro, Datatypes and more\C#-Hometask-Intro\Interface-Task\Casting-Practise\Casting-Practise\bin\Debug\net6.0\Casting-Practise.dll
+C:\Users\ASUS\OneDrive\Рабочий стол\c#\c# intro, Datatypes and more\C#-Hometask-Intro\Interface-Task\Casting-Practise\Casting-Practise\bin\Debug\net6.0\Casting-Practise.pdb
+C:\Users\ASUS\OneDrive\Рабочий стол\c#\c# intro, Datatypes and more\C#-Hometask-Intro\Interface-Task\Casting-Practise\Casting-Practise\obj\Debug\net6.0\Casting-Practise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\OneDrive\Рабочий стол\c#\c# intro, Datatypes and more\C#-Hometask-Intro\Interface-Task\Casting-Practise\Casting-Practise\obj\Debug\net6.0\Casting-Practise.AssemblyInfoInputs.cache
+C:\Users\ASUS\OneDrive\Рабочий стол\c#\c# intro, Datatypes and more\C#-Hometask-Intro\Interface-Task\Casting-Practise\Casting-Practise\obj\Debug\net6.0\Casting-Practise.AssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Рабочий стол\c#\c# intro, Datatypes and more\C#-Hometask-Intro\Interface-Task\Casting-Practise\Casting-Practise\obj\Debug\net6.0\Casting-Practise.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Рабочий стол\c#\c# intro, Datatypes and more\C#-Hometask-Intro\Interface-Task\Casting-Practise\Casting-Practise\obj\Debug\net6.0\Casting-Practise.sourcelink.json
+C:\Users\ASUS\OneDrive\Рабочий стол\c#\c# intro, Datatypes and more\C#-Hometask-Intro\Interface-Task\Casting-Practise\Casting-Practise\obj\Debug\net6.0\Casting-Practise.dll
+C:\Users\ASUS\OneDrive\Рабочий стол\c#\c# intro, Datatypes and more\C#-Hometask-Intro\Interface-Task\Casting-Practise\Casting-Practise\obj\Debug\net6.0\refint\Casting-Practise.dll
+C:\Users\ASUS\OneDrive\Рабочий стол\c#\c# intro, Datatypes and more\C#-Hometask-Intro\Interface-Task\Casting-Practise\Casting-Practise\obj\Debug\net6.0\Casting-Practise.pdb
+C:\Users\ASUS\OneDrive\Рабочий стол\c#\c# intro, Datatypes and more\C#-Hometask-Intro\Interface-Task\Casting-Practise\Casting-Practise\obj\Debug\net6.0\Casting-Practise.genruntimeconfig.cache
+C:\Users\ASUS\OneDrive\Рабочий стол\c#\c# intro, Datatypes and more\C#-Hometask-Intro\Interface-Task\Casting-Practise\Casting-Practise\obj\Debug\net6.0\ref\Casting-Practise.dll
